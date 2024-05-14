@@ -1,16 +1,16 @@
 
 const LeaderBoard = () => {
     return (
-        <div className="container mx-auto-">
-            <div className="overflow-x-auto">
+        <div className="container mx-auto">
+            <div className="">
   <table className="table">
     {/* head */}
     <thead>
       <tr>
-        <th>Image</th>
-        <th>Name</th>
-        <th>Score</th>
-        <th>Rank</th>
+        <th className="py-2 text-base text-white bg-light-green">Image</th>
+        <th className="py-2 text-base text-white bg-light-green">| Name</th>
+        <th className="py-2 text-base text-white bg-light-green">| Score</th>
+        <th className="py-2 text-base text-white bg-light-green">| Rank</th>
       </tr>
     </thead>
     <tbody>
