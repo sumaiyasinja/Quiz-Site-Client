@@ -1,11 +1,9 @@
-import DashboardNavbar from "../components/DashboardNavbar";
+
 
 const DashboardHome = () => {
   return (
-    <div className="container mx-auto">
-      <DashboardNavbar></DashboardNavbar>
-      {/* sidebar */}
-      {/* varibale container */}
+    <div className=" text-center flex items-center justify-center h-full">
+     <p>Welcome Back, user.name</p>
     </div>
   );
 };
