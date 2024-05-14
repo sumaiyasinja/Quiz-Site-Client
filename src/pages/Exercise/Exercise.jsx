@@ -1,10 +1,16 @@
+import { NavLink } from "react-router-dom";
 
 const Exercise = () => {
-    return (
-        <div>
-            exercise
-        </div>
-    );
+  return (
+    <div className=" text-center flex items-center justify-center h-full">
+      <NavLink
+        to="/dashboard/exercise"
+        className=" text-white text-lg  py-2 px-2 lg:px-5 bg-light-green font-semibold rounded-3xl "
+      >
+        Start Practice Session
+      </NavLink>
+    </div>
+  );
 };
 
 export default Exercise;

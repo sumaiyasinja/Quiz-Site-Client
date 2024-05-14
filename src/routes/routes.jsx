@@ -2,7 +2,6 @@ import { createBrowserRouter } from "react-router-dom";
 import Root from '../Root/Root'
 import ErrorPage from "../pages/ErrorPage/ErrorPage";
 import Home from './../Home/Home';
-import UserDashboard from "../layouts/Dashboard/DashboardRoot.jsx";
 import DashboardHome from "../Home/DashboardHome";
 import Exercise from "../pages/Exercise/Exercise";
 import LeaderBoard from "../pages/LeaderBoard/LeaderBoard";
