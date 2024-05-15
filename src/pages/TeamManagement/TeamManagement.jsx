@@ -4,9 +4,25 @@ const TeamManagement = () => {
     <div className="">
       <div className="container mx-auto">
         <div className=" flex justify-end">
-          <button className=" text-white text-lg  py-2 px-2 lg:px-5 bg-light-green font-semibold rounded-3xl ">
+          <button
+            onClick={() => document.getElementById("my_modal_3").showModal()}
+            className=" text-white text-lg  py-2 px-2 lg:px-5 bg-light-green font-semibold rounded-3xl "
+          >
             Create New User
           </button>
+          
+          
+
+          <dialog id="my_modal_3" className="modal">
+            <div className="modal-box">
+              <form method="dialog">
+                <button className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">
+                  ✕
+                </button>
+              </form>
+           {/* add form */}
+            </div>
+          </dialog>
         </div>
         <table className="table mt-5">
           {/* head */}
