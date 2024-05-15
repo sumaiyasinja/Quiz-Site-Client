@@ -3,7 +3,7 @@ const LeaderBoard = () => {
     return (
         <div className="container mx-auto">
             <div className="">
-  <table className="table">
+  <table className="table ">
     {/* head */}
     <thead>
       <tr>

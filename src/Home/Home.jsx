@@ -1,7 +1,7 @@
 
 import Footer from '../components/Footer';
 import Navbar from './../components/Navbar';
-import Modal from './../components/Modal';
+// import Modal from './../components/Modal';
 import ResultState from '../components/ResultState';
 const Home = () => {
     return (

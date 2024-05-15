@@ -2,8 +2,8 @@ import { IoStar } from "react-icons/io5";
 
 const ResultState = () => {
   return (
-    <div className="w-9/11 mx-auto h-screen">
-      <div className="flex items-center justify-center flex-col gap-4 py-9 border-2 border-my-gray rounded-2xl">
+    <div className="container mx-auto h-screen flex items-center justify-center ">
+      <div className="md:px-56  flex items-center justify-center flex-col gap-4 py-9 shadow-md border-2 border-my-gray rounded-2xl">
         <p className="text-3xl font-bold capitalize">Congratulations!</p>
         <p className="text-light-green text-3xl font-light">Exercise passed</p>
         <div className="flex items-center justify-center gap-2 font-bold text-5xl ">

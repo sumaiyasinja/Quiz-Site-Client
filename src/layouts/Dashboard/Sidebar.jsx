@@ -11,6 +11,13 @@ const Sidebar = () => {
       <ul className="flex flex-col justify-between items-center gap-2 text-center">
         <li>
           <NavLink
+            style={({ isActive,   }) => {
+              return {
+                backgroundColor: isActive ? "#54C999" : "",
+                color: isActive ? "white" : "",
+              };
+            }}
+          
             to="/dashboard/exercise"
             className="flex items-center gap-2 hover:text-white text-lg  py-2 px-2 lg:px-5 hover:bg-light-green font-semibold rounded-lg text-light-green"
           >
@@ -21,6 +28,12 @@ const Sidebar = () => {
         </li>
         <li>
           <NavLink
+          style={({ isActive,   }) => {
+            return {
+              backgroundColor: isActive ? "#54C999" : "",
+              color: isActive ? "white" : "",
+            };
+          }}
             to="/dashboard/TeamManagement"
             className="flex items-center gap-2 hover:text-white text-lg  py-2 px-2 lg:px-5 hover:bg-light-green font-semibold rounded-lg text-light-green"
           >
@@ -31,6 +44,12 @@ const Sidebar = () => {
         </li>
         <li>
           <NavLink
+          style={({ isActive,   }) => {
+            return {
+              backgroundColor: isActive ? "#54C999" : "",
+              color: isActive ? "white" : "",
+            };
+          }}
             to="/dashboard/leaderboard"
             className="flex items-center gap-2 hover:text-white text-lg  py-2 px-2 lg:px-5 hover:bg-light-green font-semibold rounded-lg text-light-green"
           >
@@ -41,6 +60,12 @@ const Sidebar = () => {
         </li>
         <li>
           <NavLink
+          style={({ isActive,   }) => {
+            return {
+              backgroundColor: isActive ? "#54C999" : "",
+              color: isActive ? "white" : "",
+            };
+          }}
             to="/dashboard/profile"
             className="flex items-center gap-2 hover:text-white text-lg  py-2 px-2 lg:px-5 hover:bg-light-green font-semibold rounded-lg text-light-green"
           >
