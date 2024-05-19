@@ -6,8 +6,8 @@ const MyProfile = () => {
       <div className=" flex justify-end my-3">
         <button
           onClick={() => document.getElementById("my_modal_3").showModal()}
-          className=" text-white text-lg  py-2 px-2 lg:px-5 bg-light-green font-semibold rounded-3xl "
-        >
+          className=" text-white text-base lg:text-lg  py-2 px-3 md:px-4 lg:px-5 bg-light-green font-semibold rounded-3xl "
+          >
           Change Password
         </button>
       </div>

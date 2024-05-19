@@ -9,6 +9,8 @@ import MyProfile from "../pages/MyProfile/MyProfile.jsx";
 import TeamManagement from "../pages/TeamManagement/TeamManagement.jsx";
 import Login from './../pages/Login/Login';
 import DashboardRoot from "../layouts/Dashboard/DashboardRoot.jsx";
+import Quiz from './../components/Quiz/Quiz';
+
 const router = createBrowserRouter([
   {
     path: "/",
@@ -22,6 +24,10 @@ const router = createBrowserRouter([
         {
             path: "/login",
             element : <Login></Login>
+        },
+        {
+            path: "/exercise",
+            element : <Quiz></Quiz>
         },
     ]
   },
