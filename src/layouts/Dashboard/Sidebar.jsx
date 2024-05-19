@@ -19,7 +19,7 @@ const Sidebar = () => {
             }}
           
             to="/dashboard/exercise"
-            className="flex items-center gap-2 hover:text-white text-lg  py-2 px-2 lg:px-5 hover:bg-light-green font-semibold rounded-lg text-light-green"
+            className="flex items-center gap-1 md:gap-2 hover:text-white text-sm md:text-base lg:text-lg  py-2 px-2 lg:px-5 hover:bg-light-green font-semibold rounded-lg text-light-green"
           >
             <IoBarbell />
 
@@ -35,7 +35,7 @@ const Sidebar = () => {
             };
           }}
             to="/dashboard/TeamManagement"
-            className="flex items-center gap-2 hover:text-white text-lg  py-2 px-2 lg:px-5 hover:bg-light-green font-semibold rounded-lg text-light-green"
+            className="flex items-center gap-1 md:gap-2 hover:text-white text-sm md:text-base lg:text-lg  py-2 px-2 lg:px-5 hover:bg-light-green font-semibold rounded-lg text-light-green"
           >
             <FaUsers />
 
@@ -51,7 +51,7 @@ const Sidebar = () => {
             };
           }}
             to="/dashboard/leaderboard"
-            className="flex items-center gap-2 hover:text-white text-lg  py-2 px-2 lg:px-5 hover:bg-light-green font-semibold rounded-lg text-light-green"
+            className="flex items-center gap-1 md:gap-2 hover:text-white text-sm md:text-base lg:text-lg  py-2 px-2 lg:px-5 hover:bg-light-green font-semibold rounded-lg text-light-green"
           >
             <IoBarChart />
 
@@ -67,15 +67,15 @@ const Sidebar = () => {
             };
           }}
             to="/dashboard/profile"
-            className="flex items-center gap-2 hover:text-white text-lg  py-2 px-2 lg:px-5 hover:bg-light-green font-semibold rounded-lg text-light-green"
+            className="flex  items-center gap-1 md:gap-2  hover:text-white text-sm md:text-base lg:text-lg  py-2 px-2 lg:px-5 hover:bg-light-green font-semibold rounded-lg text-light-green"
           >
             <FaRegCircleUser />
             <p> My Profile</p>
           </NavLink>
         </li>
       </ul>
-      <div className=" max-w-44 absolute bottom-0 right-0  ">
-        <img className="opacity-40" src={logo} alt="" />
+      <div className=" max-w-28 md:max-w-44 absolute bottom-0 right-0  ">
+        <img className="opacity-20 md:opacity-40 " src={logo} alt="" />
       </div>
     </div>
   );

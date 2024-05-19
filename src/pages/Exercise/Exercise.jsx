@@ -5,7 +5,7 @@ const Exercise = () => {
     <div className=" text-center flex items-center justify-center h-full">
       <NavLink
         to="/dashboard/exercise"
-        className=" text-white text-lg  py-2 px-2 lg:px-5 bg-light-green font-semibold rounded-3xl "
+        className=" text-white text-lg  py-2 px-2 md:px-4 lg:px-5 bg-light-green font-semibold rounded-3xl "
       >
         Start Practice Session
       </NavLink>
