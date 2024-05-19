@@ -1,7 +1,8 @@
+import { IoStar } from "react-icons/io5";
 
 const LeaderBoard = () => {
     return (
-        <div className="container mx-auto">
+        <div className="w-full md:w-[90%] lg:w-[85%] mx-auto">
             <div className="">
   <table className="table ">
     {/* head */}
@@ -21,7 +22,7 @@ const LeaderBoard = () => {
         {/* <th>1</th> */}
         <td><img src="" alt="user image" /></td>
         <td>Cy Ganderton</td>
-        <td>Quality Control Specialist</td>
+        <td className="flex items-center justify-start gap-2 "> <IoStar className="text-[#FFC107]"></IoStar> 85</td>
         <td>Blue</td>
       </tr>
       {/* row 2 */}
@@ -29,7 +30,7 @@ const LeaderBoard = () => {
         {/* <th>2</th> */}
         <td><img src="" alt="user image" /></td>
         <td>Hart Hagerty</td>
-        <td>Desktop Support Technician</td>
+        <td className="flex items-center justify-start gap-2 "> <IoStar className="text-[#FFC107]"></IoStar> 100</td>
         <td>Purple</td>
       </tr>
       {/* row 3 */}
@@ -37,7 +38,7 @@ const LeaderBoard = () => {
         {/* <th>3</th> */}
         <td><img src="" alt="user image" /></td>
         <td>Brice Swyre</td>
-        <td>Tax Accountant</td>
+        <td className="flex items-center justify-start gap-2 "> <IoStar className="text-[#FFC107]"></IoStar> 80</td>
         <td>Red</td>
       </tr>
     </tbody>

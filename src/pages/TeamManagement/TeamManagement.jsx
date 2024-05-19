@@ -1,8 +1,8 @@
 const TeamManagement = () => {
   // only for Admin user
   return (
-    <div className="">
-      <div className="container mx-auto">
+    <div className="w-full md:w-[90%] lg:w-[85%] mx-auto">
+
         <div className=" flex justify-end">
           <button
             onClick={() => document.getElementById("my_modal_3").showModal()}
@@ -85,7 +85,6 @@ const TeamManagement = () => {
           </tbody>
         </table>
       </div>
-    </div>
   );
 };
 
