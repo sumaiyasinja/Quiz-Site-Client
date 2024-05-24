@@ -20,7 +20,7 @@ const LeaderBoard = () => {
       {/* row 1 */}
       <tr>
         {/* <th>1</th> */}
-        <td><img src="" alt="user image" /></td>
+        <td><img className="w-10 rounded-full" src="https://i.ibb.co/gtn8JyZ/Rectangle-6.png" alt="user image" /></td>
         <td>Cy Ganderton</td>
         <td className="flex items-center justify-start gap-2 "> <IoStar className="text-[#FFC107]"></IoStar> 85</td>
         <td>Blue</td>
@@ -28,7 +28,7 @@ const LeaderBoard = () => {
       {/* row 2 */}
       <tr>
         {/* <th>2</th> */}
-        <td><img src="" alt="user image" /></td>
+        <td><img className="w-10 rounded-full" src="https://i.ibb.co/gtn8JyZ/Rectangle-6.png" alt="user image" /></td>
         <td>Hart Hagerty</td>
         <td className="flex items-center justify-start gap-2 "> <IoStar className="text-[#FFC107]"></IoStar> 100</td>
         <td>Purple</td>
@@ -36,7 +36,7 @@ const LeaderBoard = () => {
       {/* row 3 */}
       <tr>
         {/* <th>3</th> */}
-        <td><img src="" alt="user image" /></td>
+        <td><img className="w-10 rounded-full" src="https://i.ibb.co/gtn8JyZ/Rectangle-6.png" alt="user image" /></td>
         <td>Brice Swyre</td>
         <td className="flex items-center justify-start gap-2 "> <IoStar className="text-[#FFC107]"></IoStar> 80</td>
         <td>Red</td>

@@ -49,7 +49,7 @@ const Quiz = () => {
           push?       
       </div>
       {/* quiz container */}
-      <div className="flex flex-col gap-5 border-2 border-my-gray rounded-2xl md:space-y-2 md:py-5 p-3 md:px-8 ">
+      <div className="flex flex-col gap-5 border-2 border-my-gray rounded-2xl  md:py-5 p-3 md:px-8 ">
         {/* todo: add prop drilling here */}
         {/* option1 containers  */}
         <div className="border-2 border-my-gray font-normal rounded-2xl lg:text-xl px-5 py-2 text-dark-purple">

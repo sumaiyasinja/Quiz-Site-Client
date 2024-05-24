@@ -1,3 +1,7 @@
+import { ImCross } from 'react-icons/im';
+import { FiEdit } from "react-icons/fi";
+import { FaCheck } from 'react-icons/fa';
+
 const TeamManagement = () => {
   // only for Admin user
   return (
@@ -51,36 +55,38 @@ const TeamManagement = () => {
             {/* todo: pagination : 6 row max*/}
             {/* row 1 */}
             <tr>
-              {/* <th>1</th> */}
-
-              <td>Cy Ganderton</td>
-              <td>Quality Control Specialist</td>
-              <td>Blue</td>
-              <td>Cy Ganderton</td>
-              <td>Quality Control Specialist</td>
-              <td>Blue</td>
+              <th>1</th>
+              <td>Sumaiya Sinja</td>
+              <td>Sumaiya@email.com</td>
+              {/* <td ><p className="bg-[#FC0005] rounded-md text-center text-white">disabled</p></td> */}
+              {/* <td className='text-light-green flex items-center justify-centerS'><FaCheck /></td> */}
+              <td ><p className="bg-light-green rounded-md text-center text-white">active</p></td>
+              <td className='text-[#FC0005] flex items-center justify-centerS'><ImCross/></td>
+              <td className=''><FiEdit /></td>
             </tr>
             {/* row 2 */}
             <tr>
-              {/* <th>2</th> */}
+              <th>2</th>
 
-              <td>Hart Hagerty</td>
-              <td>Desktop Support Technician</td>
-              <td>Purple</td>
-              <td>Hart Hagerty</td>
-              <td>Desktop Support Technician</td>
-              <td>Purple</td>
+              
+              <td>Sumaiya Sinja</td>
+              <td>Sumaiya@email.com</td>
+              <td ><p className="bg-[#FC0005] rounded-md text-center text-white">disabled</p></td>
+              {/* <td className='text-[#FC0005] flex items-center justify-centerS'><ImCross/></td> */}
+              {/* <td ><p className="bg-light-green rounded-md text-center text-white">active</p></td> */}
+              <td className='text-light-green flex items-center justify-centerS'><FaCheck /></td>
+              <td className=''><FiEdit /></td>
             </tr>
             {/* row 3 */}
             <tr>
-              {/* <th>3</th> */}
-
-              <td>Brice Swyre</td>
-              <td>Tax Accountant</td>
-              <td>Red</td>
-              <td>Brice Swyre</td>
-              <td>Tax Accountant</td>
-              <td>Red</td>
+              <th>3</th>
+              <td>Sumaiya Sinja</td>
+              <td>Sumaiya@email.com</td>
+              {/* <td ><p className="bg-[#FC0005] rounded-md text-center text-white">disabled</p></td> */}
+              {/* <td className='text-light-green flex items-center justify-centerS'><FaCheck /></td> */}
+              <td ><p className="bg-light-green rounded-md text-center text-white">active</p></td>
+              <td className='text-[#FC0005] flex items-center justify-centerS'><ImCross/></td>
+              <td className=''><FiEdit /></td>
             </tr>
           </tbody>
         </table>
